@@ -46,6 +46,10 @@ li {
 .main-section_1 .container_1 > form  {
     padding: 2.2rem;
 }
+.main-section_1 .img-1 {
+    width: 55%;
+    align-self: center;
+}
 .main-section_1, 
 .main-section_1 .container_1,
 .main-section_1 .container_1 > form {
@@ -100,6 +104,10 @@ li {
     justify-content: center;
     text-align: center;
     background-color: var(--neutral-Light-Grayish-Blue);
+}
+.main-section_2 .img-2 {
+    width: 55%;
+    align-self: center;
 }
 .main-section_2 > p {
     color: var(--primary-Very-Dark-Blue);

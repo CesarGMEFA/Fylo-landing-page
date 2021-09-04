@@ -1,0 +1,23 @@
+.header {
+    padding: 3rem;
+    width: 100vw;
+}
+.main-section_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    align-content: center;
+}
+.main-section_1 .img-1 {
+    grid-column: 2/-1;
+    justify-self: center;
+}
+.main-section_1 .container_1{
+    grid-column: 1/2;
+    grid-row: 1;
+}
+.main-section_1 .img-object {
+    grid-column: 1/3;
+    width: 100vw;
+    height: 60px;
+}
