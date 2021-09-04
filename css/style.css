@@ -21,7 +21,6 @@ a {
 li {
     list-style: none;
 }
-
 /* HEADER STYLE ON */
 .header {
     padding: 2.2rem;
@@ -70,15 +69,18 @@ li {
     margin: 0 1.5rem 1.2rem;
     outline: none;
     border-radius: 3px;
+    align-self: center;
 }
 .main-section_1 .container_1 > form > input:first-child {
     padding: .8rem;
+    width: 200px;
     font-family: var(--family-Raleway);
     font-weight: var(--weight-400);
     border: var(--primary-Very-Dark-Blue) 1px solid;
 }
 .main-section_1 .container_1 > form > input:last-child {
     padding: .8rem;
+    width: 216px;
     background-color: var(--accent-Bright-Blue);
     border: none;
     color: var(--neutral-Light-Grayish-Blue);
@@ -259,7 +261,7 @@ li {
 .footer-social_media img {
     color: var(--neutral-Light-Grayish-Blue);
     width: 25px;
-    margin: 0 4px;
+    margin: 0 6px;
 }
 /* Footer style off */
 
