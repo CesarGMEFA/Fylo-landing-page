@@ -1,7 +1,28 @@
+:root {
+    --primary-Very-Dark-Blue: hsl(243, 87%, 12%);
+    --primary-Desaturated-Blue: hsl(238, 22%, 44%);
+    --neutral-Light-Grayish-Blue: hsl(240, 75%, 98%);
+    --neutral-Light-Gray: hsl(0, 0%, 75%);
+    --family-Raleway: 'Raleway', sans-serif;
+    --family-Open_sans: 'Open Sans', sans-serif;
+    --weight-400: 400;
+    --weight-Bold: 700;
+}
 .header {
     padding: 3rem;
-    width: 100vw;
+    margin-bottom: 2rem;
+    /* width: 100vw; */
 }
+.header > img {
+    width: 9.5rem;
+}
+.header .header-nav > a {
+    font-size: 1.4rem;
+    margin: 0 1rem;
+}
+
+
+/*  SECTION 1 STYLE */
 .main-section_1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -11,13 +32,168 @@
 .main-section_1 .img-1 {
     grid-column: 2/-1;
     justify-self: center;
+    width: 85%;
+    padding: 0;
 }
 .main-section_1 .container_1{
     grid-column: 1/2;
     grid-row: 1;
 }
+.main-section_1 .container_1 > h1,
+.main-section_1 .container_1 > p {
+    text-align: start;
+}
+.main-section_1 .container_1 > p {
+    margin: 0;
+}
+.main-section_1 .container_1 > form {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    text-align: none;
+    padding: 0;
+    margin-top: 2rem;
+}
+.main-section_1 .container_1 > form > input {
+    margin: 0;
+}
+.main-section_1 .container_1 > form > input:first-child {
+    width: 70%;
+    margin-right: 1rem;
+}
+.main-section_1 .container_1 > form > input:last-child {
+    width: 40%;
+    margin-right: 1.5rem;
+    font-size: 1.2rem;
+    letter-spacing: .05rem;
+}
 .main-section_1 .img-object {
     grid-column: 1/3;
     width: 100vw;
     height: 60px;
+}
+/* ////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////// */
+
+/* SECTION 2 STYLES */
+.main-section_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+}
+.main-section_2 .img-2 {
+    width: 75%;
+    grid-column: 2/3;
+    grid-row: span 2;
+    justify-self: center;
+}
+.main-section_2 .container-2{
+    grid-column: 1/2;
+}
+.main-section_2 .container-2 {
+    text-align: initial;
+    align-self: center;
+}
+.main-section_2 .container-2 > p {
+    font-size: 1.8rem;
+    margin: 0 0 1.5rem 0;
+}
+.main-section_2 .container-2 .main-section_2--paragraph > p {
+    font-size: 1rem;
+    font-weight: var(--weight-Bold);
+    color: var(--primary-Very-Dark-Blue);
+    padding-bottom: 1rem ;
+    margin: 0;
+}
+.main-section_2 .container-2 > a {
+    margin: 0;
+}
+.main-section_2 .main-section_2--card {
+    grid-column: 1/-1;
+    max-width: 460px;
+    margin: 4rem 0;
+    justify-self: center;
+}
+
+/* ////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////// */
+
+/* SECTION 3 STYLES */
+
+.main-section_3 {
+    padding: 4rem 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.main-section_3 .container-3  p {
+    text-align: initial;
+}
+.main-section_3 .container-3 > p:nth-child(1) {
+    margin: 0 0 1rem;
+}
+.main-section_3 .container-3 > p:nth-child(2) {
+    margin: 0;
+    font-size: 1rem;
+} 
+.main-section_3 > form {
+    align-self: center;
+    align-items: flex-start;
+    justify-self: start;
+    margin: 0 3rem;
+}
+.main-section_3 > form > input:nth-child(1) {
+    width: 90%;
+}
+.main-section_3 > form > input:nth-child(2) {
+    margin-right: 10rem;
+}
+
+/* ////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////// */
+
+/* FOOTER STYLES */
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr auto auto 1fr;
+    grid-template-rows: 1fr 1fr auto;
+}
+.footer .container--footer {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    align-self: center;
+    display: flex;
+    flex-flow: column;
+}
+.footer .container--footer > img {
+    width: 100px;
+}
+.footer .container--footer .footer_box:nth-child(2) {
+    margin: 1rem 0;
+}
+.footer .container--footer .footer_box:nth-child(3) {
+    margin: 0;
+}
+.footer ul {
+    grid-row: 2/3;
+    margin: 0 3rem;
+    align-self: flex-start;
+}
+.footer .footer_ul-1 {
+    grid-column: 2/3;
+}
+.footer .footer_ul-2 {
+    grid-column: 3/4;
+}
+.footer .footer-social_media {
+    align-self: flex-start;
+    grid-row: 2/3;
+    grid-column: 4/5;
+}
+.footer .attribution {
+    grid-column: 1/-1;
+    grid-row: 3/4;
 }

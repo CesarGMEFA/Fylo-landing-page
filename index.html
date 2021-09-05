@@ -12,13 +12,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="./css/style.css">
-  <!-- <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 600px)"> -->
+  <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 600px)">
   
   <title>Frontend Mentor | Fylo landing page with two column layout</title>
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
@@ -50,14 +46,16 @@
 
     <section class="main-section_2">
       <img class="img-2" src="./images/illustration-2.svg" alt="segunda imagen de presentacion">
-      <p>Stay productive, wherever you are</p>
-      <div class="main-section_2--paragraph">
-        <p>Never let location be an issue when accessing your files. Fylo has you 
-          covered for all of your file storage needs.</p>
-        <p>Securely share files and folders with friends, family and colleagues for 
-          live collaboration. No email attachments required!</p>
+      <div class="container-2">
+        <p>Stay productive, wherever you are</p>
+        <div class="main-section_2--paragraph">
+          <p>Never let location be an issue when accessing your files. Fylo has you 
+            covered for all of your file storage needs.</p>
+          <p>Securely share files and folders with friends, family and colleagues for 
+            live collaboration. No email attachments required!</p>
+        </div>
+        <a href="#">See how Fylo works <img src="./images/icon-arrow.svg" alt=""></a>
       </div>
-      <a href="#">See how Fylo works <img src="./images/icon-arrow.svg" alt=""></a>
       <div class="main-section_2--card">
         <img src="./images/icon-quotes.svg" alt="quote image">
         <p>Fylo has improved our team productivity by an order of magnitude. Since 
@@ -73,9 +71,11 @@
     </section>
 
     <section class="main-section_3">
-      <p>Get early access today</p>
-      <p>It only takes a minute to sign up and our free starter tier is extremely generous. 
-        If you have any questions, our support team would be happy to help you.</p>
+      <div class="container-3">
+        <p>Get early access today</p>
+        <p>It only takes a minute to sign up and our free starter tier is extremely generous. 
+          If you have any questions, our support team would be happy to help you.</p>
+      </div>
       <form action="">
         <input type="text" placeholder="email@example.com">
         <input type="submit" value="Get Started For Free">
@@ -84,22 +84,24 @@
   </main>  
 
   <footer class="footer">
-    <img src="./images/logo-white.svg" alt="">
-    <div class="footer_box">
-      <img src="./images/icon-phone.svg" alt="cellphone icon for phone number">
-      <p>Phone: +1-543-123-4567</p>
+    <div class="container--footer">
+      <img src="./images/logo-white.svg" alt="">
+      <div class="footer_box">
+        <img src="./images/icon-phone.svg" alt="cellphone icon for phone number">
+        <p>Phone: +1-543-123-4567</p>
+      </div>
+      <div class="footer_box">
+        <img src="./images/icon-email.svg" alt="email icon">
+        <p>example@fylo.com</p>
+      </div>
     </div>
-    <div class="footer_box">
-      <img src="./images/icon-email.svg" alt="email icon">
-      <p>example@fylo.com</p>
-    </div>
-    <ul>
+    <ul class="footer_ul-1">
       <li><a href="#">About Us</a></li>
       <li><a href="#">Jobs</a></li>
       <li><a href="#">Press</a></li>
       <li><a href="#">Blog</a></li>
     </ul>
-    <ul>
+    <ul class="footer_ul-2">
       <li><a href="#">Contact Us</a></li>
       <li><a href="#">Terms</a></li>
       <li><a href="#">Privacy</a></li>
@@ -111,7 +113,7 @@
     </div>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="https://github.com/CesarGMEFA" target="_blank">Cesar Gabriel</a>.
     </p>
   </footer>
   

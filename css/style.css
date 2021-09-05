@@ -109,21 +109,21 @@ li {
     width: 55%;
     align-self: center;
 }
-.main-section_2 > p {
+.main-section_2 .container-2 > p {
     color: var(--primary-Very-Dark-Blue);
     font-family: var(--family-Raleway);
     font-weight: var(--weight-Bold);
     font-size: 1.4rem;
     margin-top: 5rem;
 }
-.main-section_2 .main-section_2--paragraph {
+.main-section_2  .container-2 .main-section_2--paragraph {
     display: flex;
     flex-flow: column;
     text-align: initial;
     font-size: 1.2rem;
     color: var(--primary-Desaturated-Blue);
 }
-.main-section_2 > a {
+.main-section_2 .container-2 > a {
     display: inline-block;
     width: 120px;
     margin: 2rem auto;
@@ -133,7 +133,7 @@ li {
     position: relative;
     text-align: center;
 }
-.main-section_2 > a > img {
+.main-section_2 .container-2 > a > img {
     position: absolute;
     top: 25%;
     margin-left: .6rem;
@@ -190,13 +190,13 @@ li {
     flex-flow: column;
     align-items: center;
 }
-.main-section_3 > p:first-child {
+.main-section_3 .container-3 > p:first-child {
     color: var(--neutral-Light-Grayish-Blue);
     font-family: var(--family-Raleway);
     font-weight: var(--weight-Bold);
     font-size: 1.4rem;
 }
-.main-section_3 > p:nth-child(2) {
+.main-section_3 .container-3 > p:nth-child(2) {
     font-size: 1.2rem;
     color: var(--neutral-Light-Grayish-Blue);
     margin: 0 1.4rem 2rem;
@@ -233,25 +233,22 @@ li {
     background-color: var(--primary-Very-Dark-Blue);
     color: var(--neutral-Light-Grayish-Blue);
 }
-.footer .footer_box {
+.footer .container--footer .footer_box {
     display: flex;
     align-items: center;
     color: var(--neutral-Light-Grayish-Blue);
     line-height: 25px;
     font-size: 1.2rem;
 }
-.footer .footer_box:nth-child(2) {
+.footer .container--footer .footer_box:nth-child(2) {
     margin: 25px 0 15px 0;
 }
-.footer .footer_box:nth-child(3) {
+.footer .container--footer .footer_box:nth-child(3) {
     margin: 0 0 30px;
 }
-.footer .footer_box > p {
+.footer .container--footer .footer_box > p {
     margin: 0 0 0 15px;
 }
-/* .footer .footer_box > p:first-child { 
-    margin-bottom: 0;
-} */
 .footer ul {
     padding: 0;
     margin: 35px 0;
@@ -275,6 +272,7 @@ li {
 
 .attribution {
     margin-top: 35px;
+    text-align: center;
 }
 .attribution  a {
     color:var(--accent-Bright-Blue)
