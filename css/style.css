@@ -1,8 +1,11 @@
 :root {
     --primary-Very-Dark-Blue: hsl(243, 87%, 12%);
+    --footer_hover: hsl(249, 41%, 57%);
     --primary-Desaturated-Blue: hsl(238, 22%, 44%);
     --accent-Bright-Blue: hsl(224, 93%, 58%);
+    --button_hover: hsl(224, 97%, 70%);
     --accent-Moderate-Cyan: hsl(170, 45%, 43%);
+    --link-green_hover: hsl(170, 58%, 54%);
     --neutral-Light-Grayish-Blue: hsl(240, 75%, 98%);
     --neutral-Light-Gray: hsl(0, 0%, 75%);
     --family-Raleway: 'Raleway', sans-serif;
@@ -88,7 +91,11 @@ li {
     font-family: var(--family-Raleway);
     font-weight: var(--weight-Bold);
     font-size: 1.2rem;
+    cursor: pointer;
     letter-spacing: .05rem;
+}
+.main-section_1 .container_1 > form > button:hover {
+    background-color: var(--button_hover);
 }
 /* Section 1 style off */
 
@@ -129,11 +136,22 @@ li {
     color: var(--accent-Moderate-Cyan);
     position: relative;
     text-align: center;
+    cursor: pointer;
 }
 .main-section_2 .container-2 > .link--green a > img {
     position: absolute;
     top: 25%;
     margin-left: .6rem;
+}
+.main-section_2 .container-2 > .link--green a:hover {
+    color: var(--link-green_hover);
+    border-bottom: 1px solid var(--link-green_hover);
+}
+/* .main-section_2 .container-2 > .link--green a > img:hover{
+    fill: red;
+} */
+.main-section_2 .container-2 > .link--green a > #b:hover{
+    color: red;
 }
 .main-section_2 .main-section_2--card {
     background-color: #fff;
@@ -220,6 +238,9 @@ li {
     font-size: 1rem;
     letter-spacing: .05rem;
 }
+.main-section_3 > form > button:hover {
+    background-color: var(--button_hover);
+}
 /* Section 3 style off */
 
 /* FOOTER STYLE ON */
@@ -243,6 +264,7 @@ li {
 }
 .footer .container--footer .footer_box > p {
     margin: 0 0 0 15px;
+    cursor: pointer;
 }
 .footer ul {
     padding: 0;
@@ -262,6 +284,11 @@ li {
     color: var(--neutral-Light-Grayish-Blue);
     width: 25px;
     margin: 0 6px;
+}
+
+.footer ul li a:hover {
+    color: var(--footer_hover);
+    font-weight: var(--weight-Bold);
 }
 /* Footer style off */
 
