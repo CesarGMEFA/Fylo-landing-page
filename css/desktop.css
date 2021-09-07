@@ -63,6 +63,7 @@ body,
 }
 .main-section_2 .container-2 .link--green > a {
     font-size: 1.4rem;
+    width: 15.5rem;
 }
 .main-section_2 .main-section_2--card {
     grid-column: 1/2;
