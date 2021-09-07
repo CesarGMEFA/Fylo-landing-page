@@ -24,7 +24,6 @@ li {
 /* HEADER STYLE ON */
 .header {
     padding: 2.2rem;
-    background-color: var(--neutral-Light-Grayish-Blue);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -74,15 +73,13 @@ li {
     outline: none;
     border-radius: 3px;
     align-self: center;
-}
-.main-section_1 .container_1 > form > input:first-child {
     padding: .8rem;
     width: 200px;
     font-family: var(--family-Raleway);
     font-weight: var(--weight-400);
     border: var(--primary-Very-Dark-Blue) 1px solid;
 }
-.main-section_1 .container_1 > form > input:last-child {
+.main-section_1 .container_1 > form > button {
     padding: .8rem;
     width: 216px;
     background-color: var(--accent-Bright-Blue);
@@ -123,7 +120,7 @@ li {
     font-size: 1.2rem;
     color: var(--primary-Desaturated-Blue);
 }
-.main-section_2 .container-2 > a {
+.main-section_2 .container-2 > .link--green a {
     display: inline-block;
     width: 120px;
     margin: 2rem auto;
@@ -133,7 +130,7 @@ li {
     position: relative;
     text-align: center;
 }
-.main-section_2 .container-2 > a > img {
+.main-section_2 .container-2 > .link--green a > img {
     position: absolute;
     top: 25%;
     margin-left: .6rem;
@@ -205,8 +202,6 @@ li {
 }
 .main-section_3 > form > input {
     outline: none;
-}
-.main-section_3 > form > input:first-child {
     width: 200px;
     padding: .8rem;
     margin-bottom: 1rem;
@@ -215,7 +210,7 @@ li {
     color: var(--neutral-Light-Grayish-Blue);
     border: none;
 }
-.main-section_3 > form > input:last-child {
+.main-section_3 > form > button {
     width: 216px;
     padding: .8rem;
     background-color: var(--accent-Bright-Blue);

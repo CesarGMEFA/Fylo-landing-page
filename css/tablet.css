@@ -14,7 +14,7 @@
     /* width: 100vw; */
 }
 .header > img {
-    width: 9.5rem;
+    width: 10.5rem;
 }
 .header .header-nav > a {
     font-size: 1.4rem;
@@ -33,7 +33,6 @@
     grid-column: 2/-1;
     justify-self: center;
     width: 85%;
-    padding: 0;
 }
 .main-section_1 .container_1{
     grid-column: 1/2;
@@ -56,12 +55,10 @@
 }
 .main-section_1 .container_1 > form > input {
     margin: 0;
-}
-.main-section_1 .container_1 > form > input:first-child {
     width: 70%;
     margin-right: 1rem;
 }
-.main-section_1 .container_1 > form > input:last-child {
+.main-section_1 .container_1 > form > button {
     width: 40%;
     margin-right: 1.5rem;
     font-size: 1.2rem;
@@ -90,8 +87,6 @@
 }
 .main-section_2 .container-2{
     grid-column: 1/2;
-}
-.main-section_2 .container-2 {
     text-align: initial;
     align-self: center;
 }
@@ -100,13 +95,13 @@
     margin: 0 0 1.5rem 0;
 }
 .main-section_2 .container-2 .main-section_2--paragraph > p {
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: var(--weight-Bold);
     color: var(--primary-Very-Dark-Blue);
     padding-bottom: 1rem ;
     margin: 0;
 }
-.main-section_2 .container-2 > a {
+.main-section_2 .container-2 .link--green > a {
     margin: 0;
 }
 .main-section_2 .main-section_2--card {
@@ -135,7 +130,7 @@
 }
 .main-section_3 .container-3 > p:nth-child(2) {
     margin: 0;
-    font-size: 1rem;
+    font-size: 1.2rem;
 } 
 .main-section_3 > form {
     align-self: center;
@@ -143,10 +138,10 @@
     justify-self: start;
     margin: 0 3rem;
 }
-.main-section_3 > form > input:nth-child(1) {
+.main-section_3 > form > input {
     width: 90%;
 }
-.main-section_3 > form > input:nth-child(2) {
+.main-section_3 > form > button {
     margin-right: 10rem;
 }
 
@@ -158,7 +153,7 @@
 
 .footer {
     display: grid;
-    grid-template-columns: 1fr auto auto 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr auto;
 }
 .footer .container--footer {
@@ -181,6 +176,7 @@
     grid-row: 2/3;
     margin: 0 3rem;
     align-self: flex-start;
+    justify-self: center;
 }
 .footer .footer_ul-1 {
     grid-column: 2/3;
