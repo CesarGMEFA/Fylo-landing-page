@@ -1,0 +1,100 @@
+:root {
+    --primary-Very-Dark-Blue: hsl(243, 87%, 12%);
+    --primary-Desaturated-Blue: hsl(238, 22%, 44%);
+    --neutral-Light-Grayish-Blue: hsl(240, 75%, 98%);
+    --neutral-Light-Gray: hsl(0, 0%, 75%);
+    --family-Raleway: 'Raleway', sans-serif;
+    --family-Open_sans: 'Open Sans', sans-serif;
+    --weight-400: 400;
+    --weight-Bold: 700;
+}
+body,
+.main-section_1 .img-1,
+.main-section_2 .img-2,
+.main-section_1 .img-object {
+    margin: 0 auto;
+    max-width: 1810px;
+}
+/* SECTION 1 STYLE */
+.header {
+    padding: 5rem;
+    margin-bottom: 2rem;
+}
+.header > img {
+    width: 15rem;
+} 
+
+/* ////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////// */
+
+
+/* SECTION 1 STYLE */
+.main-section_1 .container_1{
+    padding: 0 6rem;
+}
+.main-section_1 .container_1 > h1 {
+    font-size: 3rem;
+}
+.main-section_1 .container_1 > p {
+    font-size: 1.6rem;
+}
+
+/* ////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////// */
+
+/* SECTION 2 STYLES */
+.main-section_2 {
+    padding: 6rem 6rem;
+}
+.main-section_2 .img-2 {
+    grid-column: 2/3;
+    grid-row: span 3;
+}
+.main-section_2 .container-2 > p {
+    font-size: 3rem;
+    margin: 0 0 2rem 0;
+}
+.main-section_2 .container-2 .main-section_2--paragraph > p {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    padding: 0;
+}
+
+.main-section_2 .main-section_2--card {
+    grid-column: 1/2;
+    width: 245px;
+    justify-self: flex-start;
+    margin: 1.5rem 0;
+}
+
+/* ////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////// */
+
+/* SECTION 3 STYLES */
+.main-section_3 {
+    padding: 6rem;
+}
+.main-section_3 .container-3 > p:first-child {
+    font-size: 3rem;
+}
+.main-section_3 .container-3 > p:nth-child(2) {
+    font-size: 1.6rem;
+}
+.main-section_3 > form {
+    justify-self: center;
+}
+
+/* FOOTER STYLES */
+.footer .container--footer > img {
+    width: 15rem;
+}
+.footer a,
+.footer p {
+    font-size: 1.6rem;
+}
+.footer .container--footer {
+    justify-self: center;
+}
