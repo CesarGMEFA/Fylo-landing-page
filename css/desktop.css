@@ -61,7 +61,9 @@ body,
     margin-bottom: 1rem;
     padding: 0;
 }
-
+.main-section_2 .container-2 .link--green > a {
+    font-size: 1.4rem;
+}
 .main-section_2 .main-section_2--card {
     grid-column: 1/2;
     width: 245px;
