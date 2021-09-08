@@ -93,6 +93,7 @@ li {
     font-size: 1.2rem;
     cursor: pointer;
     letter-spacing: .05rem;
+    align-self: center;
 }
 .main-section_1 .container_1 > form > button:hover {
     background-color: var(--button_hover);
@@ -127,7 +128,7 @@ li {
     font-size: 1.2rem;
     color: var(--primary-Desaturated-Blue);
 }
-.main-section_2 .container-2 > .link--green a {
+.main-section_2 .container-2 > .container_2--link a {
     display: inline-block;
     width: 120px;
     margin: 2rem auto;
@@ -138,20 +139,17 @@ li {
     text-align: center;
     cursor: pointer;
 }
-.main-section_2 .container-2 > .link--green a > img {
+.main-section_2 .container-2 .container_2--link a > svg {
     position: absolute;
-    top: 25%;
-    margin-left: .6rem;
+    top: 7px;
+    right: 0;
 }
-.main-section_2 .container-2 > .link--green a:hover {
+.main-section_2 .container-2 .container_2--link a:hover {
     color: var(--link-green_hover);
     border-bottom: 1px solid var(--link-green_hover);
 }
-/* .main-section_2 .container-2 > .link--green a > img:hover{
-    fill: red;
-} */
-.main-section_2 .container-2 > .link--green a > #b:hover{
-    color: red;
+.main-section_2 .container-2 .container_2--link a svg:hover .use {
+    fill: var(--link-green_hover)
 }
 .main-section_2 .main-section_2--card {
     background-color: #fff;
@@ -280,15 +278,17 @@ li {
     align-items: center;
     justify-content: center;
 }
-.footer-social_media img {
-    color: var(--neutral-Light-Grayish-Blue);
+.footer-social_media svg {
     width: 25px;
+    height: 25px;
     margin: 0 6px;
 }
-
-.footer ul li a:hover {
+.footer ul li a:hover{
     color: var(--footer_hover);
     font-weight: var(--weight-Bold);
+}
+.footer-social_media svg:hover path { 
+    fill: var(--footer_hover);
 }
 /* Footer style off */
 
@@ -299,4 +299,3 @@ li {
 .attribution  a {
     color:var(--accent-Bright-Blue)
 }
-
