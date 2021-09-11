@@ -42,7 +42,7 @@
 .main-section_1 .container_1 > p {
     text-align: start;
 }
-.main-section_1 .container_1 > p {
+.main-section_1 .container_1 > .container_1--p {
     margin: 0;
 }
 .main-section_1 .container_1 > form {
@@ -53,7 +53,7 @@
     padding: 0;
     margin-top: 2rem;
 }
-.main-section_1 .container_1 > form > input {
+.main-section_1 .container_1 > form > .input {
     margin: 0;
     width: 70%;
     margin-right: 1rem;

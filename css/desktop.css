@@ -36,7 +36,7 @@ body,
 .main-section_1 .container_1 > h1 {
     font-size: 3rem;
 }
-.main-section_1 .container_1 > p {
+.main-section_1 .container_1 > .container_1--p {
     font-size: 1.6rem;
 }
 
